@@ -1,0 +1,50 @@
+.register-user .card-body {
+  display: none;
+}
+
+.apt-addheading {
+  cursor: pointer;
+  user-select: none;
+}
+
+.register-list {
+  font-size: 1.1em;
+}
+
+.register-list .user-list {
+  border-bottom: 1px dotted gray;
+}
+
+.register-list .user-list:last-child {
+  border-bottom: none;
+}
+
+.register-list .user-name {
+  font-weight: 600;
+  color: #337ab7;
+  font-size: 1.3em;
+  line-height: 100%;
+}
+
+.register-list .label-item {
+  font-weight: 600;
+  color: #667b82;
+}
+
+.register-list .event-date {
+  font-style: italic;
+}
+
+.register-list .phone-no {
+  line-height: 120%;
+}
+
+.register-list .update-btn {
+  background-color: white;
+  color:blue;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #a9aeb2;
+}
